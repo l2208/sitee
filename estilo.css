@@ -20,16 +20,16 @@ body {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Sombra mais destacada */
   display: flex;
   flex-direction: row; /* Disposição horizontal */
-  max-width: 1000px; /* Ajustado para desktop */
-  width: 90%; /* Ajustável para preencher a tela */
-  height: 600px; /* Altura maior para desktop */
+  max-width: 1200px; /* Ajustado para desktop */
+  width: 95%; /* Ajustável para preencher mais a tela */
+  height: 700px; /* Altura maior para desktop */
 }
 
 .main-content {
   display: flex;
   flex: 2;
   align-items: center;
-  padding: 40px; /* Espaçamento interno maior */
+  padding: 50px; /* Espaçamento interno maior */
 }
 
 .image {
@@ -38,38 +38,38 @@ body {
 }
 
 .image img {
-  width: 120px; /* Aumentei o tamanho da imagem */
+  width: 150px; /* Tamanho aumentado */
   height: auto;
 }
 
 .text {
   flex: 2;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .text h1 {
-  font-size: 28px; /* Fonte maior */
+  font-size: 32px; /* Fonte maior */
   font-weight: bold;
   color: #4a4a39;
 }
 
 .text h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
   color: #4a4a39;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .text p {
-  font-size: 16px;
+  font-size: 18px;
   color: #6c6c54;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .sidebar {
   flex: 1;
   background-color: #f0eede; /* Fundo dos links */
-  padding: 30px; /* Espaçamento interno */
+  padding: 40px; /* Espaçamento interno */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,13 +78,13 @@ body {
 .sidebar a {
   text-decoration: none;
   color: #4a4a39;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #f9f9e8;
   border: 2px solid #c2c2a6; /* Bordas agora visíveis */
   border-radius: 5px;
   text-align: center;
-  padding: 10px 15px;
-  margin-bottom: 10px;
+  padding: 12px 18px; /* Botões maiores */
+  margin-bottom: 12px;
   transition: all 0.3s ease;
 }
 
